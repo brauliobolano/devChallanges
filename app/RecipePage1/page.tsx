@@ -7,7 +7,7 @@ const RecipePage1 = () => {
     <div className={styles.bodyDiv}>
       <div className={styles.recipe}>
         <Image
-          src="/omelette.jpeg"
+          src="/images/omelette.jpeg"
           alt="Omelette"
           width={300}
           height={300}
