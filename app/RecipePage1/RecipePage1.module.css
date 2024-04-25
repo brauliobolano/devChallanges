@@ -1,0 +1,171 @@
+.hrClass {
+  border: 1px solid var(--color-LightGrey);
+  margin: 0.5rem 0;
+}
+
+.bodyDiv {
+  position: absolute;
+  background-color: var(--color-Eggshell);
+  width: 100%;
+}
+
+.h2Class {
+  font-size: 1.5rem;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.h1Class,
+.h2Class {
+  font-family:/*  YoungSerif, */ serif;
+  font-weight: bolder;
+}
+
+.h1Class {
+  color: var(--color-DarkCharcoal);
+  font-size: 2rem;
+  padding-top: 0.8rem;
+}
+
+.h2Class,
+.thSpan {
+  color: var(--color-nutmeg);
+}
+
+.tableCSS {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.thCSS,
+.tdCSS {
+  text-align: left;
+  padding: 5px;
+  font-weight: normal;
+}
+
+.thSpan {
+  font-weight: bold;
+}
+
+.trCSS:not(:last-child) {
+  border-bottom: 1px solid beige;
+}
+
+.pCSS,
+.liCSS,
+.liCSS2,
+.thCSS,
+.tdCSS,
+.h3CSS {
+  font-family: /* outfit, */ sans-serif; /* Added fallback font */
+  padding-bottom: 0.8rem;
+}
+
+.thCSS {
+  padding: 10px 30px;
+}
+
+/* ol li,
+ul li */
+.liCSS,
+.liCSS2 {
+  padding-left: 15px; /* Adjust the padding as needed */
+  padding-bottom: 8px;
+}
+.ingrUl {
+  list-style-position: outside;
+  padding-left: 20px;
+  list-style: disc;
+}
+.prepUl {
+  list-style-position: outside;
+  padding-left: 30px;
+  list-style: disc;
+}
+.instrOl {
+  list-style-position: outside;
+  padding-left: 24px;
+  list-style: decimal;
+  font-weight: bold;
+  color: var(--color-nutmeg);
+}
+
+.imgCSS {
+  width: 100%;
+  border-radius: 10px;
+}
+.listColor li {
+  color: var(--color-nutmeg);
+}
+
+.h3CSS {
+  font-weight: bold;
+}
+
+.fontNormal {
+  font-weight: normal;
+}
+
+.bold1 {
+  font-weight: bold;
+}
+
+.colorBlack,
+.pCSS,
+.liCSS,
+.thCSS {
+  color: var(--color-WengeBrown);
+}
+
+.prepTime {
+  box-sizing: border-box;
+  background-color: hsl(330, 100%, 98%); /*Rose White*/
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.h3CSS {
+  color: var(--color-darkRaspberry);
+  padding: 0.8rem 0 0.8rem 10px;
+}
+
+.attribution {
+  margin-top: 2rem;
+  color: var(--color-DarkCharcoal);
+  bottom: 0;
+  text-align: center;
+}
+
+.recipe {
+  background-color: white;
+}
+
+.trCSS:not(:last-child) {
+  border-bottom: 1px solid var(--color-LightGrey);
+}
+@media only screen and (min-width: 375px) {
+  .recipe {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 40%;
+    min-width: 400px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 374.99px) {
+  .recipe {
+    width: 105%;
+    height: 100%;
+    margin-top: -8px;
+    margin-left: -20px;
+  }
+  .recipeDoc {
+    box-sizing: border-box;
+    padding: 0 15px 30px 30px;
+  }
+}
