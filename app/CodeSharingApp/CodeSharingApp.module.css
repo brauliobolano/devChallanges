@@ -1,0 +1,38 @@
+.backgroundColorCustom {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(183, 135, 245, 1),
+    rgba(116, 62, 228, 1)
+  );
+}
+.textCSS {
+  display: flex; /* Flexbox */
+  justify-content: center; /* Center horizontally */
+  width: 100%;
+  /*   background-image: linear-gradient(
+    to bottom right,
+    rgba(183, 135, 245, 1),
+    rgba(116, 62, 228, 1)
+  ); */
+  position: absolute;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.backImage {
+  object-fit: cover; /* Cover the whole div */
+  max-width: none;
+  min-width: 1280px;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 640px) {
+}

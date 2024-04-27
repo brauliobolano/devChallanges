@@ -1,0 +1,66 @@
+.codeDIV {
+  background-color: #fffffe;
+  width: 75%;
+  height: 600px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 25px 10px rgba(54, 65, 83, 0.2);
+  border: 1px solid 121826;
+  margin-bottom: 14%;
+}
+
+.codeEditorCSS {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* .codeEditorCSS {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  color: black;
+  z-index: 4;
+} */
+
+.codeDButtons {
+  position: absolute;
+  bottom: 30%;
+  right: 15%;
+  display: flex;
+}
+.codeDBtn {
+  background-color: #406aff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.codeDBtn2 {
+  background-color: #406aff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
