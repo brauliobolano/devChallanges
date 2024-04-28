@@ -1,5 +1,5 @@
 .codeDIV {
-  background-color: #fffffe;
+  position: relative;
   width: 75%;
   height: 600px;
   box-sizing: border-box;
@@ -35,32 +35,10 @@
 
 .codeDButtons {
   position: absolute;
-  bottom: 30%;
-  right: 15%;
+  bottom: 2%;
   display: flex;
-}
-.codeDBtn {
-  background-color: #406aff;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
   width: 100%;
-  border-radius: 25px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.codeDBtn2 {
-  background-color: #406aff;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  width: 100%;
-  border-radius: 25px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+  align-items: flex-end;
 }

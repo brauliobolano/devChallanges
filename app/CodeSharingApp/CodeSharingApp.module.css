@@ -4,6 +4,7 @@
     rgba(183, 135, 245, 1),
     rgba(116, 62, 228, 1)
   );
+  height: 1100px;
 }
 .textCSS {
   display: flex; /* Flexbox */
